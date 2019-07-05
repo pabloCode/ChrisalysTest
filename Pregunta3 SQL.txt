@@ -1,0 +1,21 @@
+1. select * from Autor
+
+2. select * from Lector where Carrera like '%Empresariales'
+
+3. <!--- Esta me pareció algo extraña ya que en la tabla Lector no aparece campo apellido, a no ser que se trunque por espacio y coger el segundo valor como apellido
+
+4. select sum(Edad) from Lector
+
+5. select Top 1 nombre from Lector order by Edad asc
+
+6.
+
+7.
+
+8.
+
+
+ ** Como verás en cuanto a SQL, mas que nada consultas ando bastante flojete, pero nada que unas horas de estudio no arregle. 
+
+
+

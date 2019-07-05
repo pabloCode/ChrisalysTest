@@ -1,0 +1,7 @@
+C:\Users\Pablo\source\repos\Pregunta1-FizzBuzz\Pregunta1-FizzBuzz\bin\Debug\Pregunta1-FizzBuzz.exe.config
+C:\Users\Pablo\source\repos\Pregunta1-FizzBuzz\Pregunta1-FizzBuzz\bin\Debug\Pregunta1-FizzBuzz.exe
+C:\Users\Pablo\source\repos\Pregunta1-FizzBuzz\Pregunta1-FizzBuzz\bin\Debug\Pregunta1-FizzBuzz.pdb
+C:\Users\Pablo\source\repos\Pregunta1-FizzBuzz\Pregunta1-FizzBuzz\obj\Debug\Pregunta1-FizzBuzz.csprojAssemblyReference.cache
+C:\Users\Pablo\source\repos\Pregunta1-FizzBuzz\Pregunta1-FizzBuzz\obj\Debug\Pregunta1-FizzBuzz.csproj.CoreCompileInputs.cache
+C:\Users\Pablo\source\repos\Pregunta1-FizzBuzz\Pregunta1-FizzBuzz\obj\Debug\Pregunta1-FizzBuzz.exe
+C:\Users\Pablo\source\repos\Pregunta1-FizzBuzz\Pregunta1-FizzBuzz\obj\Debug\Pregunta1-FizzBuzz.pdb

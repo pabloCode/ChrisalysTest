@@ -1,0 +1,25 @@
+public void metodoA(int[], int pos) // Error: El primer argumento tiene tipo pero no nombre
+{
+	int sum = 0;
+	while(i=0)    // Error: Esta asignando valor cuando se espera un operador de comparativo tipo == >= <= , tampoco esta declarada la variable i 
+	{
+		sum = sum + vec[1]; // Posible error: La variable vec[] (un array) no está definida, a no ser que este definida a nivel de clase y de forma estatica
+	}
+	return sum; // Error: Un metodo Void no devuelve ningún valor 
+	
+}
+
+
+Corregido:
+
+
+public int metodoA(int[] vec, int pos)
+{
+	int sum = 0;
+	while(pos != 0)   
+	{
+		sum = sum + vec[pos]; 
+	}
+	return sum;
+	
+}

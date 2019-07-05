@@ -1,0 +1,13 @@
+Private Sub LeerIdMuro (ByVal From_Id as String)
+	Dim fb As New FacebookClient(Token) ' Crea objeeto FacebookClient pasandole un Token, entiendo de seguridad, para poder realizar la llamada de la siguiente linea
+	Dim result = CType(Fb.Get(String.Concat("/", Origen, "/conversations")), IDictionary(Of String, Object)) ' Se realiza la llamada al servicio pasandole la url (/bancosabadell/conversations) y un diccionario string/object
+	
+	For Each conversations As JsonObject In result("data") ' se recorre por cada registro de tipo JsonObject que hay en result (conversations) 
+		For Each quien As JsonObject In conversations("senders","data") ' se recorre por cada registro de tipo JsonObject que hay en conversations (quien) 
+			If quien("id") == From_Id Then
+				IdMuro = conversations("id").ToString       ' Si el resultado quien es la id pasada al metodo obtenemos la IdMuro la cual es la id de la conversacion
+				Exit Sub
+			End If
+		Next
+	Next
+End Sub
